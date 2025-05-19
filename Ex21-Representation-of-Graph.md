@@ -4,12 +4,19 @@ To write a C program to display the adjacency matrix of the given graph by suppl
 
 ## Algorithm
 1.Start
+
 2.Read the value of V (number of vertices).
+
 3.Declare an adjacency matrix adjMatrix[V][V].
+
 4.Initialize the matrix to 0 using the init function.
-5.Calculate the maximum number of edges me as n * (n - 1) / 2.
+
+5.Calculate the maximum number of edges me as n * (n - 1) / 2
+
 6.For each edge, read e1 and e2, add the edge to the adjacency matrix, and stop if e1 == -1 && e2 == -1.
+
 7.Print the adjacency matrix.
+
 8.End
 
 ## Program:
